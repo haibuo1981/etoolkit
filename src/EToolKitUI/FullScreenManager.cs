@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Interop;
 using System.Runtime.InteropServices;
 
-namespace _360UI
+namespace EToolKit
 {
     public static class FullScreenManager
     {

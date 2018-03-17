@@ -1,19 +1,19 @@
-﻿360UI
+﻿EToolKit
 
 
 winexe
 C#
 .cs
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\
-_360UI
+EToolKit
 none
 false
 DEBUG;TRACE
 C:\project\HackTime\etoolkit\src\EToolKitUI\App.xaml
 5-1595480793
 
-6-483166030
-13-819396587
+10360657376
+13297697056
 ButtonResource.xaml;MainWindow.xaml;MenuItemStyle.xaml;SysButtonStyle.xaml;TabControlStyle.xaml;
 
 False

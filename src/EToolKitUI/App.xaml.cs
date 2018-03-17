@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace _360UI
+namespace EToolKit
 {
     /// <summary>
     /// App.xaml 的交互逻辑

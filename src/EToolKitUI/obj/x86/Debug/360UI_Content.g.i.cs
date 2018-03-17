@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("skin/logo2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("etoolkit.ico")]
 
 
