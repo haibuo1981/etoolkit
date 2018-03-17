@@ -1,0 +1,79 @@
+G:\测试程序\C Sharp\360UI\360UI\bin\Debug\360UI.exe
+G:\测试程序\C Sharp\360UI\360UI\bin\Debug\360UI.pdb
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\MainWindow.baml
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\MainWindow.g.cs
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\App.g.cs
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\360UI_MarkupCompile.cache
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\360UI.g.resources
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\_360UI.Properties.Resources.resources
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\360UI.exe
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\360UI.pdb
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\GenerateResource.read.0.tlog
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\GenerateResource.write.0.tlog
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\App.baml
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\TabControlStyle.baml
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\SysButtonStyle.baml
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\MenuItemStyle.baml
+G:\测试程序\C Sharp\360UI\360UI\obj\x86\Debug\ButtonResource.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\360UI.exe
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\360UI.pdb
+C:\Users\Administrator\Desktop\360UI\360UI\bin\Debug\360UI.exe
+C:\Users\Administrator\Desktop\360UI\360UI\bin\Debug\360UI.pdb
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\ButtonResource.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\MenuItemStyle.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\SysButtonStyle.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\TabControlStyle.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\App.baml
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\360UI_MarkupCompile.cache
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\360UI.g.resources
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\_360UI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\Administrator\Desktop\360UI\360UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\My Code\360UI\360UI\obj\x86\Debug\360UI.exe
+E:\My Code\360UI\360UI\obj\x86\Debug\360UI.pdb
+E:\My Code\360UI\360UI\bin\Debug\360UI.exe
+E:\My Code\360UI\360UI\bin\Debug\360UI.pdb
+E:\My Code\360UI\360UI\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My Code\360UI\360UI\obj\x86\Debug\ButtonResource.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\MainWindow.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\MenuItemStyle.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\SysButtonStyle.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\TabControlStyle.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\App.baml
+E:\My Code\360UI\360UI\obj\x86\Debug\MainWindow.g.cs
+E:\My Code\360UI\360UI\obj\x86\Debug\App.g.cs
+E:\My Code\360UI\360UI\obj\x86\Debug\360UI_MarkupCompile.cache
+E:\My Code\360UI\360UI\obj\x86\Debug\360UI.g.resources
+E:\My Code\360UI\360UI\obj\x86\Debug\_360UI.Properties.Resources.resources
+E:\My Code\360UI\360UI\obj\x86\Debug\GenerateResource.read.0.tlog
+E:\My Code\360UI\360UI\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\My Code\360UI\360UI\obj\x86\Debug\GenerateResource.write.0.tlog
+E:\My Code\360UI\360UI\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI.exe
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI.pdb
+E:\opensource\360UI\360UI\bin\Debug\360UI.exe
+E:\opensource\360UI\360UI\bin\Debug\360UI.pdb
+E:\opensource\360UI\360UI\obj\x86\Debug\ButtonResource.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\MainWindow.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\MenuItemStyle.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\SysButtonStyle.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\TabControlStyle.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\App.baml
+E:\opensource\360UI\360UI\obj\x86\Debug\MainWindow.g.cs
+E:\opensource\360UI\360UI\obj\x86\Debug\App.g.cs
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI_MarkupCompile.cache
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI.g.resources
+E:\opensource\360UI\360UI\obj\x86\Debug\_360UI.Properties.Resources.resources
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI.csproj.GenerateResource.Cache
+E:\opensource\360UI\360UI\obj\x86\Debug\360UI.csprojResolveAssemblyReference.cache
+C:\project\360UI\360UI\obj\x86\Debug\360UI.exe
+C:\project\360UI\360UI\obj\x86\Debug\360UI.pdb

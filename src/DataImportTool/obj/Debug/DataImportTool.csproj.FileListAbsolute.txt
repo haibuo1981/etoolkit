@@ -1,0 +1,2 @@
+C:\project\HackTime\etoolkit\src\DataImportTool\DataImportTool\bin\Debug\DataImportTool.exe.config
+C:\project\HackTime\etoolkit\src\DataImportTool\bin\Debug\DataImportTool.exe.config

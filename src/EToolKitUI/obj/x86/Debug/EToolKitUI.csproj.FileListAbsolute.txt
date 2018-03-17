@@ -1,0 +1,17 @@
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\360UI.exe
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\360UI.pdb
+C:\project\HackTime\etoolkit\src\EToolKitUI\bin\Debug\360UI.exe
+C:\project\HackTime\etoolkit\src\EToolKitUI\bin\Debug\360UI.pdb
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKitUI.csprojResolveAssemblyReference.cache
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\ButtonResource.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\MainWindow.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\MenuItemStyle.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\SysButtonStyle.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\TabControlStyle.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\App.baml
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\MainWindow.g.cs
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\App.g.cs
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\360UI_MarkupCompile.cache
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\360UI.g.resources
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\_360UI.Properties.Resources.resources
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKitUI.csproj.GenerateResource.Cache
