@@ -1,0 +1,11 @@
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\bin\Release\DataImportTool.exe.config
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\bin\Release\DataImportTool.exe
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\bin\Release\DataImportTool.pdb
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\bin\Release\System.Data.SQLite.dll
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\bin\Release\System.Data.SQLite.pdb
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.csprojResolveAssemblyReference.cache
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.Form1.resources
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.Properties.Resources.resources
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.csproj.GenerateResource.Cache
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.exe
+E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.pdb

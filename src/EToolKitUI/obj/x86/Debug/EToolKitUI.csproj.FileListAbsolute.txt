@@ -16,3 +16,6 @@ C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.g.resources
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.Properties.Resources.resources
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.exe
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.pdb
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.exe.config
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.exe
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.pdb
