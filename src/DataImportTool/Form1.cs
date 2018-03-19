@@ -146,7 +146,14 @@ namespace DataImportTool
         /// <param name="e"></param>
         private void button4_Click(object sender, EventArgs e)
         {
+            FTPClient ftp = new FTPClient("115.29.13.47", "/home/upload/test/", "etoolkit_test", "upload123", 21);
+            ftp.Connect();
+            string folder = "12345";
+            ftp.MkDir(folder);
+            ftp.ChDir($"/home/upload/test/{folder}");
+            ftp.Put(@"c:\offline_FtnInfo.txt");
 
+            ftp.DisConnect();
         }
 
         /// <summary>

@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\
+C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\
 EToolKit
 none
 false
 DEBUG;TRACE
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\App.xaml
+C:\project\HackTime\etoolkit\src\EToolKitUI\App.xaml
 5-1595480793
 
-101703664552
+10113433274
 13297697056
 ButtonResource.xaml;MainWindow.xaml;MenuItemStyle.xaml;SysButtonStyle.xaml;TabControlStyle.xaml;
 
