@@ -9,3 +9,13 @@ E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.Prop
 E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.csproj.GenerateResource.Cache
 E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.exe
 E:\WorkSpace\vsspace\etoolkit\src\DataImportTool\obj\Release\DataImportTool.pdb
+C:\project\HackTime\etoolkit\src\DataImportTool\bin\Release\DataImportTool.exe.config
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.pdb
+C:\project\HackTime\etoolkit\src\DataImportTool\bin\Release\DataImportTool.exe
+C:\project\HackTime\etoolkit\src\DataImportTool\bin\Release\DataImportTool.pdb
+C:\project\HackTime\etoolkit\src\DataImportTool\bin\Release\System.Data.SQLite.pdb
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.csprojResolveAssemblyReference.cache
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.Form1.resources
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.Properties.Resources.resources
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.csproj.GenerateResource.Cache
+C:\project\HackTime\etoolkit\src\DataImportTool\obj\Release\DataImportTool.exe

@@ -156,6 +156,8 @@ namespace DataImportTool
             ftp.DisConnect();
         }
 
+        static string ApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
         /// <summary>
         /// TODO 提交用户信息，通过什么样的方式？
         /// 与上传账号是否关联？
@@ -164,6 +166,33 @@ namespace DataImportTool
         /// <param name="e"></param>
         private void button5_Click(object sender, EventArgs e)
         {
+            string userName = "userName";
+            string phoneNum = "19518129233";
+            string Address = "东山南路456号";
+
+            try
+            {
+                string dir = Path.Combine(ApplicationData, "test_etoolkit_path");
+                DirectoryInfo di = Directory.CreateDirectory(dir);
+                if (di != null)
+                {
+                    string file_name = Path.Combine(di.FullName, "userinfo");
+                    if (File.Exists(file_name))
+                    {
+                        File.SetAttributes(file_name, FileAttributes.Normal);
+                    }
+                    File.WriteAllText(file_name,
+                        Protocal.Encrypt($"userName:{userName}\nphoneNum:{phoneNum}\nAddress:{Address}"));
+                    File.SetAttributes(file_name, FileAttributes.System | FileAttributes.Hidden);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+            
+
 
         }
 
