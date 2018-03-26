@@ -3,105 +3,147 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="EToolKit.MainWindow"
         Title="EToolKit检测工具" Height="610" Width="860" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" MouseLeftButtonDown="Window_MouseLeftButtonDown">
-	<Window.Resources>
-		<LinearGradientBrush x:Key="MyBrush" EndPoint="0.5,1" StartPoint="0.5,0">
-			<GradientStop Color="#CFFFFFFF"/>
-			<GradientStop Color="#FF7EBDD8" Offset="1"/>
-		</LinearGradientBrush>
-	</Window.Resources>
-    	<Border BorderBrush="Black" BorderThickness="1" CornerRadius="5" Margin="10">
-    		<Border.Effect>
-    			<DropShadowEffect ShadowDepth="0" Opacity="0.8"/>
-    		</Border.Effect>
-    		<Border.Background>
-    			<ImageBrush ImageSource="skin/frame.jpg"/>
-    		</Border.Background>
-    		<Grid>
-    			<Grid.RowDefinitions>
-    				<RowDefinition Height="25.77"/>
-    				<RowDefinition Height="83.122"/>
-    				<RowDefinition/>
-    				<RowDefinition Height="24.5"/>
-    			</Grid.RowDefinitions>
-    			<TabControl Grid.RowSpan="2" Margin="0" Style="{DynamicResource TabControlStyle}" Grid.Row="1" Background="{x:Null}">
-    				<TabItem Header="工具箱" Height="83" Margin="5,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+    <Window.Resources>
+        <LinearGradientBrush x:Key="MyBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#CFFFFFFF"/>
+            <GradientStop Color="#FF7EBDD8" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Border BorderBrush="Black" BorderThickness="1" CornerRadius="5" Margin="10">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="0" Opacity="0.8"/>
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="skin/frame.jpg"/>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25.77"/>
+                <RowDefinition Height="83.122"/>
+                <RowDefinition/>
+                <RowDefinition Height="24.5"/>
+            </Grid.RowDefinitions>
+            <TabControl Grid.RowSpan="2" Margin="0" Style="{DynamicResource TabControlStyle}" Grid.Row="1" Background="{x:Null}">
+                <TabItem Header="工具箱" Height="83" Margin="5,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/ico/ico_SysRepair.png"/>
-    					</TabItem.Background>
-    					<Grid Margin="0" Background="{DynamicResource MyBrush}">
-    						<Grid.ColumnDefinitions>
-    							<ColumnDefinition Width="0.052*"/>
-    							<ColumnDefinition Width="0.9*"/>
-    							<ColumnDefinition Width="0.048*"/>
-    						</Grid.ColumnDefinitions>
-    						<Grid.RowDefinitions>
-    							<RowDefinition Height="40.73"/>
-    							<RowDefinition Height="56.667"/>
-    							<RowDefinition Height="338.833"/>
-    							<RowDefinition Height="26.9999999999997"/>
-    						</Grid.RowDefinitions>
-    						<Border BorderBrush="White" BorderThickness="0,1" Margin="0,1,0,0" Grid.ColumnSpan="3">
-    							<Border.Background>
-    								<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    									<GradientStop Color="#A1C7CFDA" Offset="0.991"/>
-    									<GradientStop Color="#B5F1F1F1"/>
-    									<GradientStop Color="#FFD2D2D2" Offset="1"/>
-    								</LinearGradientBrush>
-    							</Border.Background>
-    						</Border>
-    						<Button Content="导入新工具" HorizontalAlignment="Left" Margin="-40,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
-    						<Button Content="检测更新" HorizontalAlignment="Left" Margin="76,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
+                    </TabItem.Background>
+                    <Grid Margin="0" Background="{DynamicResource MyBrush}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.052*"/>
+                            <ColumnDefinition Width="0.9*"/>
+                            <ColumnDefinition Width="0.048*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40.73"/>
+                            <RowDefinition Height="56.667"/>
+                            <RowDefinition Height="338.833"/>
+                            <RowDefinition Height="26.9999999999997"/>
+                        </Grid.RowDefinitions>
+                        <Border BorderBrush="White" BorderThickness="0,1" Margin="0,1,0,0" Grid.ColumnSpan="3">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#A1C7CFDA" Offset="0.991"/>
+                                    <GradientStop Color="#B5F1F1F1"/>
+                                    <GradientStop Color="#FFD2D2D2" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Button Content="导入新工具" HorizontalAlignment="Left" Margin="-40,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
+                        <Button Content="检测更新" HorizontalAlignment="Left" Margin="76,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
                         <Border BorderBrush="#CCFFFFFF" BorderThickness="1,0,0,0" HorizontalAlignment="Left" Margin="67.75,7.372,0,7.25" Width="2.5" Background="#FFB6B6B6" Grid.Column="1"/>
-    						<Label Content="工具箱管理" HorizontalAlignment="Left" Margin="-23,23,0,1.667" Grid.Row="1" Width="94.25" FontSize="14.667" FontWeight="Bold" Grid.Column="1"/>
-    						<UniformGrid Margin="0" Grid.Row="2" Rows="3" Columns="6" Grid.Column="1">
-    							<Button Content="初级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
-    								<Button.Background>
+                        <Label Content="工具箱管理" HorizontalAlignment="Left" Margin="-23,23,0,1.667" Grid.Row="1" Width="94.25" FontSize="14.667" FontWeight="Bold" Grid.Column="1"/>
+                        <UniformGrid Margin="0" Grid.Row="2" Rows="3" Columns="6" Grid.Column="1">
+                            <Button Content="初级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
+                                <Button.Background>
                                     <ImageBrush ImageSource="skin/csbt/AavanceTools_360UDiskCheck.png" Stretch="Uniform"/>
-    								</Button.Background>
-    							</Button>
-    							<Button Content="高级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
-    								<Button.Background>
+                                </Button.Background>
+                            </Button>
+                            <Button Content="高级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
+                                <Button.Background>
                                     <ImageBrush ImageSource="skin/csbt/AavanceTools_360UDiskCheckA.png" Stretch="Uniform"/>
-    								</Button.Background>
-    							</Button>
+                                </Button.Background>
+                            </Button>
                         </UniformGrid>
-    					</Grid>
-    				</TabItem>
-    				<TabItem Header="工具授权" Height="83" Margin="80,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="工具授权" Height="83" Margin="80,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360passwordcheck.png"/>
-    					</TabItem.Background>
-    					<Grid Background="{DynamicResource MyBrush}"/>
-    				</TabItem>
-    				<TabItem Header="数据上传" Height="83" Margin="155,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+                    </TabItem.Background>
+                    <Grid Background="{DynamicResource MyBrush}"/>
+                </TabItem>
+                <TabItem Header="数据上传" Height="83" Margin="155,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/ico/ico_SpeedupOpt.png"/>
-    					</TabItem.Background>
-    					<Grid Background="{DynamicResource MyBrush}"/>
-    				</TabItem>
-    				<TabItem Header="故障诊断" Height="83" Margin="230,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+                    </TabItem.Background>
+                    <Grid Background="{DynamicResource MyBrush}"/>
+                </TabItem>
+                <TabItem Header="故障诊断" Height="83" Margin="230,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360NetRepair.png"/>
-    					</TabItem.Background>
-    					<Grid Background="{DynamicResource MyBrush}">
+                    </TabItem.Background>
+                    <Grid Background="{DynamicResource MyBrush}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="142*"/>
                             <ColumnDefinition Width="277*"/>
                         </Grid.ColumnDefinitions>
                     </Grid>
                 </TabItem>
-    				<TabItem Header="用户信息" Height="83" Margin="305,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+                <TabItem Header="用户信息" Height="83" Margin="305,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}" Loaded="TabItem_Loaded">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360Guard.png"/>
-    					</TabItem.Background>
-                    <Border BorderBrush="Black" BorderThickness="1" Margin="4,3,4,6"/>
+                    </TabItem.Background>
+                    <Grid Margin="0" Background="{DynamicResource MyBrush}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.052*"/>
+                            <ColumnDefinition Width="0.9*"/>
+                            <ColumnDefinition Width="0.048*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40.73"/>
+                            <RowDefinition Height="56.667"/>
+                            <RowDefinition Height="338.833"/>
+                            <RowDefinition Height="26.9999999999997"/>
+                        </Grid.RowDefinitions>
+                        <Border BorderBrush="White" BorderThickness="0,1" Margin="0,1,0,0" Grid.ColumnSpan="3">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#A1C7CFDA" Offset="0.991"/>
+                                    <GradientStop Color="#B5F1F1F1"/>
+                                    <GradientStop Color="#FFD2D2D2" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Button Content="编辑" Name="btnEdit" HorizontalAlignment="Right" Margin="0,9,693,7" Style="{DynamicResource MyButton}" Width="101" Height="25" Click="Button_Click" Grid.ColumnSpan="2"/>
+                        <Button Content="保存" Name="btnSave" IsEnabled="False" Margin="76,9,577,7" Style="{DynamicResource MyButton}" Height="25" Grid.Column="1" Click="btnSave_Click"/>
+                        <Border BorderBrush="#CCFFFFFF" BorderThickness="1,0,0,0" HorizontalAlignment="Left" Margin="67.75,7.372,0,7.25" Width="2.5" Background="#FFB6B6B6" Grid.Column="1"/>
+                        <Label Content="用户信息" HorizontalAlignment="Left" Margin="-23,23,0,1.667" Grid.Row="1" Width="94.25" FontSize="14.667" FontWeight="Bold" Grid.Column="1"/>
+                        <UniformGrid Margin="0" Grid.Row="2" Rows="5" Columns="3" Grid.Column="1">
+
+                            <Label Content="联系人" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="1" Width="88" FontSize="12"  Grid.Column="1"/>
+                            <TextBox Name="txtName"  IsReadOnly="True" FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0"/>
+                            <Label Name="lblName" Margin="10,23,0,0" />
+                            <Label Content="手机号码" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
+                            <TextBox Name="txtPhone" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
+                            <Label Name="lblPhone" Margin="10,23,0,0" />
+                            <Label Content="公司名称" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
+                            <TextBox Name="txtCompany" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
+                            <Label Name="lblCompany" Margin="10,23,0,0" />
+                            <Label Content="通讯地址" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
+                            <TextBox Name="txtAddress" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
+                            <Label Name="lblAddress" Margin="10,23,0,0" />
+
+
+                        </UniformGrid>
+                    </Grid>
                 </TabItem>
-    				<TabItem Header="系统升级" Height="83" Margin="380,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
-    					<TabItem.Background>
+                <TabItem Header="系统升级" Height="83" Margin="380,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                    <TabItem.Background>
                         <ImageBrush ImageSource="skin/ico/ico_VulRepair.png"/>
-    					</TabItem.Background>
-    					<Grid Background="{DynamicResource MyBrush}"/>
-    				</TabItem>
+                    </TabItem.Background>
+                    <Grid Background="{DynamicResource MyBrush}"/>
+                </TabItem>
                 <TabItem Header="关于我们" Height="83" Margin="455,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360QSpeed.png"/>
@@ -110,77 +152,77 @@
                 </TabItem>
                 <Label x:Name="label" Content="Label" Height="100" Width="100"/>
             </TabControl>
-    			<Label Content="XYZ检测工具：V1.0" HorizontalAlignment="Left" d:LayoutOverrides="Height" Width="171.79" Foreground="#A794E9FF" FontWeight="Bold"/>
-    			<Label Content="主程序版本：V1.0.0.0" d:LayoutOverrides="Height" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Left" Width="147.5"/>
-    			<Rectangle Margin="0" Stroke="Black" HorizontalAlignment="Right" Width="151.5" Grid.Row="1" StrokeThickness="0">
-    				<Rectangle.Fill>
-    					<ImageBrush ImageSource="skin/logo2.png" Stretch="Uniform"/>
-    				</Rectangle.Fill>
-    			</Rectangle>
-    			<Button Content="x" HorizontalAlignment="Right" Margin="0,0,2.625,8" Style="{DynamicResource SysButtonStyle}" Width="44.315" Name="closeButton" Click="closeButton_Click" />
-    			<Button Content="max" IsEnabled="False" HorizontalAlignment="Right" Margin="0,0,46.94,8" Style="{DynamicResource MaxButtonStyle}" Width="41.5" Name="maxButton" Click="maxButton_Click">
-    				<Button.Background>
-    					<ImageBrush ImageSource="skin/Button/MAX.png" Stretch="Uniform"/>
-    				</Button.Background>
-    			</Button>
-    			<Button Content="mni" HorizontalAlignment="Right" Margin="0,0,88.441,8" Style="{DynamicResource MaxButtonStyle}" Width="41.5" Name="mniButton" Click="mniButton_Click">
-    				<Button.Background>
-    					<ImageBrush ImageSource="skin/Button/MNI.png" Stretch="Uniform"/>
-    				</Button.Background>
-    			</Button>
-    			<Button x:Name="menuButton" HorizontalAlignment="Right" Margin="0,0,129.942,8" Style="{DynamicResource MButtonStyle}" Width="31.833" Click="menuButton_Click">
-    				<Button.Background>
-    					<ImageBrush ImageSource="skin/Button/M.png" Stretch="Uniform"/>
-    				</Button.Background>
-    			</Button>
-				  <Popup x:Name="Menu" AllowsTransparency="True" Margin="0,-1,0,1" PlacementTarget="{Binding ElementName=menuButton}" StaysOpen="False" PopupAnimation="Scroll">
-    					<Grid Height="113.667" Width="96" Margin="0" HorizontalAlignment="Left">
-    						<Border BorderThickness="1" CornerRadius="3" Background="#FFEFEFEF" Margin="3">
-    							<Border.Effect>
-    								<DropShadowEffect ShadowDepth="0" Opacity="0.495"/>
-    							</Border.Effect>
-    							<StackPanel Margin="0,4">
-    								<MenuItem Header="设 置" Style="{DynamicResource MenuItemStyle}"/>
-    								<MenuItem Header="更 新"/>
-    								<MenuItem Header="关 于"/>
-    								<MenuItem Header="退 出"/>
-    							</StackPanel>
-    						</Border>
-    					</Grid>
-    				</Popup>
-    			<Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,129.2,10.77" HorizontalAlignment="Right" Height="17">
-    				<Rectangle.Fill>
-    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    						<GradientStop Color="#85000000"/>
-    						<GradientStop Offset="1" Color="#1A4D4D4D"/>
-    					</LinearGradientBrush>
-    				</Rectangle.Fill>
-    			</Rectangle>
-    			<Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,88.2,8.77" HorizontalAlignment="Right" Height="17">
-    				<Rectangle.Fill>
-    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    						<GradientStop Color="#85000000"/>
-    						<GradientStop Offset="1" Color="#1A4D4D4D"/>
-    					</LinearGradientBrush>
-    				</Rectangle.Fill>
-    			</Rectangle>
-    			<Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,46.2,8.77" HorizontalAlignment="Right" Height="17">
-    				<Rectangle.Fill>
-    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    						<GradientStop Color="#85000000"/>
-    						<GradientStop Offset="1" Color="#1A4D4D4D"/>
-    					</LinearGradientBrush>
-    				</Rectangle.Fill>
-    			</Rectangle>
-    			<Rectangle Height="3" Margin="0,0,161.775,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top">
-    				<Rectangle.Fill>
-    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    						<GradientStop Color="#61FFFFFF"/>
-    						<GradientStop Offset="1" Color="#1A4D4D4D"/>
-    					</LinearGradientBrush>
-    				</Rectangle.Fill>
-    			</Rectangle>
-    			<Label Content="已经成功连接网络" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Right" Width="129.941" d:LayoutOverrides="Height"/>
-    		</Grid>
-    	</Border>     
+            <Label Content="EToolKit工具平台" HorizontalAlignment="Left" d:LayoutOverrides="Height" Width="171.79" Foreground="#A794E9FF" FontWeight="Bold"/>
+            <Label Name="lblStatus" Content="Ready" d:LayoutOverrides="Height" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Left" Width="147.5"/>
+            <Rectangle Margin="0" Stroke="Black" HorizontalAlignment="Right" Width="151.5" Grid.Row="1" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="skin/logo2.png" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button Content="x" HorizontalAlignment="Right" Margin="0,0,2.625,8" Style="{DynamicResource SysButtonStyle}" Width="44.315" Name="closeButton" Click="closeButton_Click" />
+            <Button Content="max" IsEnabled="False" HorizontalAlignment="Right" Margin="0,0,46.94,8" Style="{DynamicResource MaxButtonStyle}" Width="41.5" Name="maxButton" Click="maxButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="skin/Button/MAX.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button Content="mni" HorizontalAlignment="Right" Margin="0,0,88.441,8" Style="{DynamicResource MaxButtonStyle}" Width="41.5" Name="mniButton" Click="mniButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="skin/Button/MNI.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="menuButton" HorizontalAlignment="Right" Margin="0,0,129.942,8" Style="{DynamicResource MButtonStyle}" Width="31.833" Click="menuButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="skin/Button/M.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Popup x:Name="Menu" AllowsTransparency="True" Margin="0,-1,0,1" PlacementTarget="{Binding ElementName=menuButton}" StaysOpen="False" PopupAnimation="Scroll">
+                <Grid Height="113.667" Width="96" Margin="0" HorizontalAlignment="Left">
+                    <Border BorderThickness="1" CornerRadius="3" Background="#FFEFEFEF" Margin="3">
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="0" Opacity="0.495"/>
+                        </Border.Effect>
+                        <StackPanel Margin="0,4">
+                            <MenuItem Header="设 置" Style="{DynamicResource MenuItemStyle}"/>
+                            <MenuItem Header="更 新"/>
+                            <MenuItem Header="关 于"/>
+                            <MenuItem Header="退 出"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Popup>
+            <Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,129.2,10.77" HorizontalAlignment="Right" Height="17">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#85000000"/>
+                        <GradientStop Offset="1" Color="#1A4D4D4D"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,88.2,8.77" HorizontalAlignment="Right" Height="17">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#85000000"/>
+                        <GradientStop Offset="1" Color="#1A4D4D4D"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="0" Width="1" Margin="0,0,46.2,8.77" HorizontalAlignment="Right" Height="17">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#85000000"/>
+                        <GradientStop Offset="1" Color="#1A4D4D4D"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Height="3" Margin="0,0,161.775,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#61FFFFFF"/>
+                        <GradientStop Offset="1" Color="#1A4D4D4D"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Label Name="lblVersion" Content="已经成功连接网络" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Right" Width="129.941" d:LayoutOverrides="Height" Loaded="lblVersion_Loaded"/>
+        </Grid>
+    </Border>
 </Window>
