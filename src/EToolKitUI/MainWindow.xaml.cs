@@ -182,5 +182,20 @@ namespace EToolKit
             this.txtCompany.IsReadOnly = true;
             this.txtAddress.IsReadOnly = true;
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.tbAbout.IsSelected = true;
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.tbUpate.IsSelected = true;
+        }
     }
 }

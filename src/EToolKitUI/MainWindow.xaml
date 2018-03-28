@@ -71,7 +71,9 @@
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360passwordcheck.png"/>
                     </TabItem.Background>
-                    <Grid Background="{DynamicResource MyBrush}"/>
+                    <Grid Background="{DynamicResource MyBrush}">
+                        <Label x:Name="label1" Content="亲爱的顾客，您没有需要授权的产品" HorizontalAlignment="Left" FontSize="36" Foreground="Gray" Margin="118,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.037,-2.27"/>
+                    </Grid>
                 </TabItem>
                 <TabItem Header="数据上传" Height="83" Margin="155,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
@@ -88,6 +90,7 @@
                             <ColumnDefinition Width="142*"/>
                             <ColumnDefinition Width="277*"/>
                         </Grid.ColumnDefinitions>
+                        <Label x:Name="label1_Copy" Content="本版本不提供此功能，请关注我们的产品更新" HorizontalAlignment="Left" FontSize="36" Foreground="Gray" Margin="68,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.037,-2.27" Grid.ColumnSpan="2"/>
                     </Grid>
                 </TabItem>
                 <TabItem Header="用户信息" Height="83" Margin="305,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}" Loaded="TabItem_Loaded">
@@ -138,19 +141,21 @@
                         </UniformGrid>
                     </Grid>
                 </TabItem>
-                <TabItem Header="系统升级" Height="83" Margin="380,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                <TabItem x:Name="tbUpate" Header="系统升级" Height="83" Margin="380,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/ico/ico_VulRepair.png"/>
                     </TabItem.Background>
-                    <Grid Background="{DynamicResource MyBrush}"/>
+                    <Grid Background="{DynamicResource MyBrush}">
+                        <Label x:Name="label1_Copy1" Content="感谢您的使用，没有检测到新版本" HorizontalAlignment="Left" FontSize="36" Foreground="Gray" Margin="138,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.037,-2.27"/>
+                    </Grid>
                 </TabItem>
-                <TabItem Header="关于我们" Height="83" Margin="455,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                <TabItem x:Name="tbAbout" Header="关于我们" Height="83" Margin="455,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360QSpeed.png"/>
                     </TabItem.Background>
                     <Grid Background="{DynamicResource MyBrush}"/>
                 </TabItem>
-                <Label x:Name="label" Content="Label" Height="100" Width="100"/>
+                
             </TabControl>
             <Label Content="EToolKit工具平台" HorizontalAlignment="Left" d:LayoutOverrides="Height" Width="171.79" Foreground="#A794E9FF" FontWeight="Bold"/>
             <Label Name="lblStatus" Content="Ready" d:LayoutOverrides="Height" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Left" Width="147.5"/>
@@ -170,22 +175,21 @@
                     <ImageBrush ImageSource="skin/Button/MNI.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="menuButton" HorizontalAlignment="Right" Margin="0,0,129.942,8" Style="{DynamicResource MButtonStyle}" Width="31.833" Click="menuButton_Click">
+            <Button x:Name="menuButton" HorizontalAlignment="Right" Margin="0,0,130,8" Style="{DynamicResource MButtonStyle}" Width="32" Click="menuButton_Click" Height="18" VerticalAlignment="Bottom">
                 <Button.Background>
                     <ImageBrush ImageSource="skin/Button/M.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
             <Popup x:Name="Menu" AllowsTransparency="True" Margin="0,-1,0,1" PlacementTarget="{Binding ElementName=menuButton}" StaysOpen="False" PopupAnimation="Scroll">
-                <Grid Height="113.667" Width="96" Margin="0" HorizontalAlignment="Left">
+                <Grid Height="88" Width="96" Margin="0" HorizontalAlignment="Left">
                     <Border BorderThickness="1" CornerRadius="3" Background="#FFEFEFEF" Margin="3">
                         <Border.Effect>
                             <DropShadowEffect ShadowDepth="0" Opacity="0.495"/>
                         </Border.Effect>
                         <StackPanel Margin="0,4">
-                            <MenuItem Header="设 置" Style="{DynamicResource MenuItemStyle}"/>
-                            <MenuItem Header="更 新"/>
-                            <MenuItem Header="关 于"/>
-                            <MenuItem Header="退 出"/>
+                            <MenuItem Header="更 新" Click="MenuItem_Click_2"/>
+                            <MenuItem Header="关 于" Click="MenuItem_Click_1"/>
+                            <MenuItem Header="退 出" Click="MenuItem_Click"/>
                         </StackPanel>
                     </Border>
                 </Grid>
