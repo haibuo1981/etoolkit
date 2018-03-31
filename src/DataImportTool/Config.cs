@@ -9,7 +9,7 @@ namespace DataImportTool
     class Config
     {
         // public static string DatabaseFile = @"F:\data\etoolkit\db\etk.dll";
-        public static string DatabaseFile = @"C:\tmp\etk.dll";
+        public static string DatabaseFile = @".\etk.dll";
         public static string ToolFile = @"F:\data\etoolkit\定版诊断软件\伍德沃德天然气OH6专用诊断工具-专业版.wtool";
         public static string SaveFile = @"F:\data\etoolkit\test\1.wtool";
 

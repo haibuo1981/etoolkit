@@ -49,17 +49,16 @@
                                 </LinearGradientBrush>
                             </Border.Background>
                         </Border>
-                        <Button Content="导入新工具" HorizontalAlignment="Left" Margin="-40,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
-                        <Button Content="检测更新" HorizontalAlignment="Left" Margin="76,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1"/>
+                        <Button Content="导入新工具" HorizontalAlignment="Left" Margin="-40,8.865,0,8.865" Style="{DynamicResource MyButton}" Width="101" Height="25" Grid.Column="1" Click="Button_Click_1"/>
                         <Border BorderBrush="#CCFFFFFF" BorderThickness="1,0,0,0" HorizontalAlignment="Left" Margin="67.75,7.372,0,7.25" Width="2.5" Background="#FFB6B6B6" Grid.Column="1"/>
                         <Label Content="工具箱管理" HorizontalAlignment="Left" Margin="-23,23,0,1.667" Grid.Row="1" Width="94.25" FontSize="14.667" FontWeight="Bold" Grid.Column="1"/>
                         <UniformGrid Margin="0" Grid.Row="2" Rows="3" Columns="6" Grid.Column="1">
-                            <Button Content="初级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
+                            <Button Content="OH6诊断工具" x:Name="btnTool1" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78" Click="Button_Click_2">
                                 <Button.Background>
                                     <ImageBrush ImageSource="skin/csbt/AavanceTools_360UDiskCheck.png" Stretch="Uniform"/>
                                 </Button.Background>
                             </Button>
-                            <Button Content="高级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78">
+                            <Button Content="高级工具包" HorizontalAlignment="Left" Height="82" Style="{DynamicResource Buttonlist}" VerticalAlignment="Top" Width="78" Click="Button_Click_3">
                                 <Button.Background>
                                     <ImageBrush ImageSource="skin/csbt/AavanceTools_360UDiskCheckA.png" Stretch="Uniform"/>
                                 </Button.Background>
@@ -79,7 +78,27 @@
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/ico/ico_SpeedupOpt.png"/>
                     </TabItem.Background>
-                    <Grid Background="{DynamicResource MyBrush}"/>
+                    <Grid Background="{DynamicResource MyBrush}">
+                        <Border BorderBrush="White" BorderThickness="0,1" Margin="0,1,0,413">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#A1C7CFDA" Offset="0.991"/>
+                                    <GradientStop Color="#B5F1F1F1"/>
+                                    <GradientStop Color="#FFD2D2D2" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Button Content="选择文件" x:Name="btnSelect" HorizontalAlignment="Right" Margin="0,9,733,420" Style="{DynamicResource MyButton}" Width="101" Height="25" Click="btnSelect_Click"/>
+                        <Border BorderBrush="#CCFFFFFF" BorderThickness="1,0,0,0" HorizontalAlignment="Left" Width="2" Margin="110,9,0,420" Height="25" Background="#FFB6B6B6"/>
+                        <Button Content="上传" x:Name="btnUpload" Margin="120,9,617,420" Style="{DynamicResource MyButton}" Height="25" Click="btnUpload_Click" />
+                        <RichTextBox x:Name="richTextBox" IsReadOnly="True" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="818" Height="398" Background="#FF080808" Foreground="#FFFBF9F9">
+                            <FlowDocument LineHeight="1">
+                                <Paragraph>
+
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                    </Grid>
                 </TabItem>
                 <TabItem Header="故障诊断" Height="83" Margin="230,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
@@ -126,16 +145,16 @@
 
                             <Label Content="联系人" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="1" Width="88" FontSize="12"  Grid.Column="1"/>
                             <TextBox Name="txtName"  IsReadOnly="True" FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0"/>
-                            <Label Name="lblName" Margin="10,23,0,0" />
+                            <Label Name="lblName" Margin="10,23,0,0" Foreground="#FFF90606" />
                             <Label Content="手机号码" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
                             <TextBox Name="txtPhone" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
-                            <Label Name="lblPhone" Margin="10,23,0,0" />
+                            <Label Name="lblPhone" Margin="10,23,0,0" Foreground="#FFF90606" />
                             <Label Content="公司名称" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
                             <TextBox Name="txtCompany" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
-                            <Label Name="lblCompany" Margin="10,23,0,0" />
+                            <Label Name="lblCompany" Margin="10,23,0,0" Foreground="#FFF90606" />
                             <Label Content="通讯地址" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,23,0,1.667" Grid.Row="2" Width="88" FontSize="12"  Grid.Column="1"/>
                             <TextBox Name="txtAddress" IsReadOnly="True"  FontSize="18" Padding="10,10,10,10" TextAlignment="Left" Margin="-118,23,0,0" Grid.Row="2"/>
-                            <Label Name="lblAddress" Margin="10,23,0,0" />
+                            <Label Name="lblAddress" Margin="10,23,0,0" Foreground="#FFF90606" />
 
 
                         </UniformGrid>
@@ -155,7 +174,7 @@
                     </TabItem.Background>
                     <Grid Background="{DynamicResource MyBrush}"/>
                 </TabItem>
-                
+
             </TabControl>
             <Label Content="EToolKit工具平台" HorizontalAlignment="Left" d:LayoutOverrides="Height" Width="171.79" Foreground="#A794E9FF" FontWeight="Bold"/>
             <Label Name="lblStatus" Content="Ready" d:LayoutOverrides="Height" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Left" Width="147.5"/>

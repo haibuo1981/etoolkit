@@ -16,12 +16,6 @@ C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.g.resources
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.Properties.Resources.resources
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.exe
 C:\project\HackTime\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.pdb
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.exe.config
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.exe
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.pdb
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.exe
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.pdb
-E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKitUI.csprojResolveAssemblyReference.cache
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\ButtonResource.baml
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\MainWindow.baml
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\MenuItemStyle.baml
@@ -34,3 +28,11 @@ E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit_MarkupCompil
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.g.resources
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.Properties.Resources.resources
 E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKitUI.csproj.GenerateResource.Cache
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.exe.config
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.exe
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\EToolKit.pdb
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\System.Data.SQLite.dll
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\bin\Debug\System.Data.SQLite.pdb
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.exe
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKit.pdb
+E:\WorkSpace\vsspace\etoolkit\src\EToolKitUI\obj\x86\Debug\EToolKitUI.csprojResolveAssemblyReference.cache
