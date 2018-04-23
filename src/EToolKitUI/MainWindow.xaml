@@ -100,16 +100,15 @@
                         </RichTextBox>
                     </Grid>
                 </TabItem>
-                <TabItem Header="故障诊断" Height="83" Margin="230,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
+                <TabItem Header="在线支持" Height="83" Margin="230,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}">
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360NetRepair.png"/>
                     </TabItem.Background>
                     <Grid Background="{DynamicResource MyBrush}">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="142*"/>
-                            <ColumnDefinition Width="277*"/>
-                        </Grid.ColumnDefinitions>
-                        <Label x:Name="label1_Copy" Content="本版本不提供此功能，请关注我们的产品更新" HorizontalAlignment="Left" FontSize="36" Foreground="Gray" Margin="68,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.037,-2.27" Grid.ColumnSpan="2"/>
+                        
+                        <Image Source="skin/CONTROCTUS.png" Stretch="Fill" Margin="0,0,0, -58" />
+                        
+                        <Label x:Name="label1_Copy" Content="行业顶尖专家在线技术支持" HorizontalAlignment="Left" FontSize="36" Foreground="Orange" Margin="58,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.037,-2.27" Grid.ColumnSpan="2"/>
                     </Grid>
                 </TabItem>
                 <TabItem Header="用户信息" Height="83" Margin="305,0,0,0" Width="74" Style="{DynamicResource TabItemStyle}" Loaded="TabItem_Loaded">
@@ -172,9 +171,12 @@
                     <TabItem.Background>
                         <ImageBrush ImageSource="skin/csbt/AavanceTools_360QSpeed.png"/>
                     </TabItem.Background>
-                    <Grid Background="{DynamicResource MyBrush}"/>
-                </TabItem>
+                    <Grid Background="{DynamicResource MyBrush}">
+                        <Image Source="skin/aboutus2.png" Stretch="Fill" />
 
+                    </Grid>
+
+                </TabItem>
             </TabControl>
             <Label Content="EToolKit工具平台" HorizontalAlignment="Left" d:LayoutOverrides="Height" Width="171.79" Foreground="#A794E9FF" FontWeight="Bold"/>
             <Label Name="lblStatus" Content="Ready" d:LayoutOverrides="Height" Margin="0" Grid.Row="3" Foreground="#A794E9FF" FontWeight="Bold" BorderThickness="0" BorderBrush="White" HorizontalAlignment="Left" Width="147.5"/>

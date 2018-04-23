@@ -13,7 +13,7 @@ namespace EToolKit
     class Config
     {
         // public static string DatabaseFile = @"F:\data\etoolkit\db\etk.dll";
-        public static string DatabaseFile = @"C:\tmp\etk.dll";
+        public static string DatabaseFile = @".\etk.dll";
         public static string SaveFile = @"F:\data\etoolkit\test\1.wtool";
         public static string FtpServer = @"115.29.13.47";
         public static int FtpPort = 21;
